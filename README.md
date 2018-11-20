@@ -12,6 +12,7 @@ Python
  3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [:scroll:](cpp/prob_3.cpp) | [:scroll:](js/prob_3.js) | [:scroll:](py/prob_3.py) | Medium
  4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | | | [:scroll:](py/prob_4.py) | Hard
  &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
+ 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | | | [:scroll:](py/prob_6.py) | Medium
  7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | | | [:scroll:](py/prob_7.py) | Easy
  8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | | | [:scroll:](py/prob_8.py) | Medium
  9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | | | [:scroll:](py/prob_9.py) | Easy
