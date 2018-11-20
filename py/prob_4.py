@@ -29,8 +29,6 @@ class Solution:
                 comb.append(n2)
                 n2 = next(nums2_gen, None)
                 
-        #print(comb)
-                
         median_pos = ((n_elem + 1) / 2) - 1
         median = None
 
