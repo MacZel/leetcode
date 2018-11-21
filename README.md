@@ -23,8 +23,8 @@ Python
  &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
  21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | | | [:page_facing_up:](py/prob_21.py) | Easy
  &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
- 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | | | [:scroll:](py/prob_23.py) | Hard
+ 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | | | [:page_facing_up:](py/prob_23.py) | Hard
  &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
- 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | | | [:scroll:](py/prob_27.py) | Easy
- 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | | | [:scroll:](py/prob_28.py) | Easy
+ 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | | | [:page_facing_up:](py/prob_27.py) | Easy
+ 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | | | [:page_facing_up:](py/prob_28.py) | Easy
  &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
