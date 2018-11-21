@@ -25,3 +25,5 @@ Python
  &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
  23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | | | [:scroll:](py/prob_23.py) | Hard
  &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
+ 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | | | [:scroll:](py/prob_27.py) | Easy
+ &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
