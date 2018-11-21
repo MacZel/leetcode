@@ -23,3 +23,5 @@ Python
  &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
  21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | | | [:page_facing_up:](py/prob_21.py) | Easy
  &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
+ 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | | | [:scroll:](py/prob_23.py) | Hard
+ &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
