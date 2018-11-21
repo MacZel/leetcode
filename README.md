@@ -21,3 +21,5 @@ Python
  13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | | | [:scroll:](py/prob_13.py) | Easy
  14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | | | [:scroll:](py/prob_14.py) | Easy
  &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
+ 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | | | [:scroll:](py/prob_21.py) | Easy
+ &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
