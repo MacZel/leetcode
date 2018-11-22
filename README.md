@@ -32,3 +32,5 @@ Python
  &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
  35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | | | [:page_facing_up:](py/prob_35.py) | Easy
  &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
+ 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | | | [:page_facing_up:](py/prob_49.py) | Medium
+ &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
