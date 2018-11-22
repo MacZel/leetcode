@@ -20,6 +20,7 @@ Python
  12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | | | [:page_facing_up:](py/prob_12.py) | Medium
  13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | | | [:page_facing_up:](py/prob_13.py) | Easy
  14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | | | [:page_facing_up:](py/prob_14.py) | Easy
+ 15 | [3Sum](https://leetcode.com/problems/3sum/) | | | [:page_facing_up:](py/prob_15.py) | Medium 
  &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
  21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | | | [:page_facing_up:](py/prob_21.py) | Easy
  &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE; | &#x22EE;
