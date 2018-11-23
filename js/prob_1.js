@@ -5,12 +5,12 @@
  */
 const twoSum = (nums, target) => {
     let num_obj = {}
-    for (i=0; i < nums.length; i++) {
+    for (let i=0; i < nums.length; i++) {
         num_obj[nums[i]] = i
     }
     
     let res = []
-    for (i=0; i < nums.length; i++) {
+    for (let i=0; i < nums.length; i++) {
         let result = target - nums[i]
         
         if (result in num_obj && num_obj[result] != i) {
