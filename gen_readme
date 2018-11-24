@@ -82,7 +82,6 @@ def update_readme():
 	problems_data = None
 	readme_header, readme_data = get_readme_data()
 
-	print("Updating README")
 	for file in get_untracked_files():
 		if problem_file_pattern.match(file):
 			directory, problem_no, extension = problem_file_pattern.search(file).groups()
@@ -115,6 +114,7 @@ def update_readme():
 							problem[1]["title"],
 							problem[1]["cpp"],
 							problem[1]["js"],
+							problem[1]["py"],
 							problem[1]["difficulty"]]
 					if index != len(readme_problems_sorted) - 1:
 						readme_problems_output.append("|".join(problem_list) + "\n")
