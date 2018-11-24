@@ -1,0 +1,143 @@
+#!/usr/bin/env python
+
+import json
+import re
+import subprocess
+from urllib.request import Request, urlopen
+
+
+def badge(type):
+	class Colors:
+		SUCCESS = "\x1b[30;48;5;85m"
+		WARNING = "\x1b[1;48;5;215m"
+		ERROR = "\x1b[1;48;5;168m"
+		ENDC = "\x1b[0m"
+
+	type = type.upper()
+	beg = getattr(Colors, type)
+	end = Colors.ENDC
+	return f"{beg}{type: ^11}{end}"
+	
+def get_untracked_files():
+	untracked_files_binary = subprocess.check_output("git ls-files --others --exclude-standard")
+	untracked_files_list = filter(None, untracked_files_binary.decode("ascii").split("\n"))
+	return untracked_files_list
+	
+def parse_problem_data(problems_data, problem_no):
+	DIFFICULTY_MAP = dict([
+		(1, "Easy"),
+		(2, "Medium"),
+		(3, "Hard")
+	])
+	
+	response = json.loads(problems_data)
+	problem_data = response["stat_status_pairs"][-problem_no]
+	
+	title = problem_data["stat"]["question__title"]
+	url = problem_data["stat"]["question__title_slug"]
+	difficulty = DIFFICULTY_MAP[problem_data["difficulty"]["level"]]
+	
+	return (title, url, difficulty)
+	
+def fetch_problem_data():
+	url = "https://leetcode.com/api/problems/algorithms/"
+	headers = {"User-Agent": "Mozilla/5.0"}
+	request = Request(url, headers=headers)
+	response = urlopen(request)
+	return response.read().decode("utf-8")
+	
+def get_readme_data():
+	table_row_pattern = re.compile("([0-9]{1,3})\|(.*)\|(.*)\|(.*)\|(.*)\|(.*)")
+	readme_lines = None
+	
+	with open("README.md", "r") as f:
+		readme_lines = f.readlines()
+	
+	header = []
+	problems = {}
+	build_header = True
+	for line in readme_lines:
+		if table_row_pattern.match(line):
+			build_header = False
+			no, title, cpp, js, py, difficulty = table_row_pattern.search(line).groups()
+			problems[int(no)] = {
+				"title": title,
+				"cpp": cpp,
+				"js": js,
+				"py": py,
+				"difficulty": difficulty
+				}
+		elif build_header:
+			header.append(line)
+	return (header, problems)
+	
+def write_readme(header, problems):
+	with open("README.md", "w") as f:
+		f.writelines(header)
+		f.writelines(problems)
+	return
+	
+def update_readme():
+	problem_file_pattern = re.compile("(cpp|js|py)/prob_([0-9]+)\.(cpp|js|py)")
+	problems_data = None
+	readme_header, readme_data = get_readme_data()
+
+	print("Updating README")
+	for file in get_untracked_files():
+		if problem_file_pattern.match(file):
+			directory, problem_no, extension = problem_file_pattern.search(file).groups()
+			problem_no = int(problem_no)
+			if directory == extension:
+				if readme_data.get(problem_no):
+					readme_data[problem_no][extension] = f"[:page_facing_up:]({file})"
+					print(f"{badge('success')}: {file: <20} - Entry updated in README. Files staged for commit.")
+				else:
+					if not problems_data:
+						problems_data = fetch_problem_data()
+					problem_title, problem_url, problem_difficulty = parse_problem_data(problems_data, problem_no)
+			
+					readme_data[problem_no] = {
+						"title": f"[{problem_title}](https://leetcode.com/problems/{problem_url}/)",
+						"cpp": f"[:page_facing_up:]({file})" if extension == "cpp" else "",
+						"js": f"[:page_facing_up:]({file})" if extension == "js" else "",
+						"py": f"[:page_facing_up:]({file})" if extension == "py" else "",
+						"difficulty": problem_difficulty
+						}
+					print(f"{badge('success')}: {file: <20} - Entry added in README. Files staged for commit.")
+				
+				problem_keys_sorted = sorted(readme_data.keys())
+				readme_problems_sorted = [(key, readme_data[key]) for key in problem_keys_sorted]
+
+				readme_problems_output = []
+				for index, problem in enumerate(readme_problems_sorted):
+					problem_list = [
+							str(problem[0]),
+							problem[1]["title"],
+							problem[1]["cpp"],
+							problem[1]["js"],
+							problem[1]["difficulty"]]
+					if index != len(readme_problems_sorted) - 1:
+						readme_problems_output.append("|".join(problem_list) + "\n")
+						current_key = readme_problems_sorted[index][0]
+						next_key = readme_problems_sorted[index+1][0]
+						if current_key + 1 != next_key:
+							readme_problems_output.append("|".join(6 * ["&#x22EE;"]) + "\n")
+					else:
+						readme_problems_output.append("|".join(problem_list) + "\n")
+						readme_problems_output.append("|".join(6 * ["&#x22EE;"]) + "\n")
+				
+				write_readme(readme_header, readme_problems_output)
+
+				subprocess.call(f"git add {file} README.md")
+				subprocess.call(f'git commit -m "Create prob_{problem_no}.{extension}"')
+				
+			else:
+				print(f"{badge('error')}: {file: <20} - Should be placed at {extension}/ not {directory}/.")
+		else:
+			print(f"{badge('warning')}: {file: <20} - File URI doesn\'t match the pattern.")
+			
+	return
+
+if __name__ == "__main__":
+	update_readme()
+	
