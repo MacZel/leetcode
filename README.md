@@ -26,7 +26,7 @@ Python
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|||[:page_facing_up:](py/prob_23.py)|Hard
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
-26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[:page_facing_up:](cpp/prob_26.cpp)||[:page_facing_up:](py/prob_26.py)|Easy
+26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[:page_facing_up:](cpp/prob_26.cpp)|[:page_facing_up:](js/prob_26.js)|[:page_facing_up:](py/prob_26.py)|Easy
 27|[Remove Element](https://leetcode.com/problems/remove-element/)|||[:page_facing_up:](py/prob_27.py)|Easy
 28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|||[:page_facing_up:](py/prob_28.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
