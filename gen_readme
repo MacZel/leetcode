@@ -31,11 +31,20 @@ def parse_problem_data(problems_data, problem_no):
 	])
 	
 	response = json.loads(problems_data)
-	problem_data = response["stat_status_pairs"][-problem_no]
+
+	problems_stats = response["stat_status_pairs"]
+	problems_dict={}
+	for problem in problems_stats:
+		problem_stat = problem["stat"]
+		problems_dict[problem_stat["frontend_question_id"]] = {
+			"title": problem_stat["question__title"],
+			"url": problem_stat["question__title_slug"],
+			"difficulty": problem["difficulty"]["level"]
+		}
 	
-	title = problem_data["stat"]["question__title"]
-	url = problem_data["stat"]["question__title_slug"]
-	difficulty = DIFFICULTY_MAP[problem_data["difficulty"]["level"]]
+	title = problems_dict[problem_no]["title"]
+	url = problems_dict[problem_no]["url"]
+	difficulty = DIFFICULTY_MAP[problems_dict[problem_no]["difficulty"]]
 	
 	return (title, url, difficulty)
 	
