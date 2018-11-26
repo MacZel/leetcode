@@ -35,5 +35,7 @@ Python
 48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[:page_facing_up:](cpp/prob_48.cpp)|[:page_facing_up:](js/prob_48.js)|[:page_facing_up:](py/prob_48.py)|Medium
 49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|||[:page_facing_up:](py/prob_49.py)|Medium
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
+771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|||[:page_facing_up:](py/prob_771.py)|Easy
+&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|||[:page_facing_up:](py/prob_945.py)|Medium
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
