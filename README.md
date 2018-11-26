@@ -45,6 +45,8 @@ Python
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 807|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|||[:page_facing_up:](py/prob_807.py)|Medium
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
+832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|||[:page_facing_up:](py/prob_832.py)|Easy
+&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|||[:page_facing_up:](py/prob_905.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|||[:page_facing_up:](py/prob_929.py)|Easy
