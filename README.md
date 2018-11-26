@@ -39,6 +39,8 @@ Python
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|||[:page_facing_up:](py/prob_771.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
+804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|||[:page_facing_up:](py/prob_804.py)|Easy
+&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 807|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|||[:page_facing_up:](py/prob_807.py)|Medium
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|||[:page_facing_up:](py/prob_929.py)|Easy
