@@ -53,6 +53,8 @@ Python
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|||[:page_facing_up:](py/prob_905.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
+922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|||[:page_facing_up:](py/prob_922.py)|Easy
+&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|||[:page_facing_up:](py/prob_929.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|||[:page_facing_up:](py/prob_945.py)|Medium
