@@ -49,6 +49,8 @@ Python
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|||[:page_facing_up:](py/prob_832.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
+890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|||[:page_facing_up:](py/prob_890.py)|Medium
+&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|||[:page_facing_up:](py/prob_905.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|||[:page_facing_up:](py/prob_929.py)|Easy
