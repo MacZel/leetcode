@@ -41,6 +41,8 @@ Python
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|||[:page_facing_up:](py/prob_709.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
+728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|||[:page_facing_up:](py/prob_728.py)|Easy
+&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|||[:page_facing_up:](py/prob_771.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|||[:page_facing_up:](py/prob_804.py)|Easy
