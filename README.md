@@ -37,6 +37,8 @@ Python
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|||[:page_facing_up:](py/prob_461.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
+561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|||[:page_facing_up:](py/prob_561.py)|Easy
+&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|||[:page_facing_up:](py/prob_617.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|||[:page_facing_up:](py/prob_657.py)|Easy
