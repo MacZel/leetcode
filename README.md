@@ -57,7 +57,7 @@ Python
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|||[:page_facing_up:](py/prob_852.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
-867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|||[:page_facing_up:](py/prob_867.py)|Easy
+867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[:page_facing_up:](cpp/prob_867.cpp)||[:page_facing_up:](py/prob_867.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|||[:page_facing_up:](py/prob_883.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
