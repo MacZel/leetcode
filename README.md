@@ -71,7 +71,7 @@ Python
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[:page_facing_up:](cpp/prob_933.cpp)||[:page_facing_up:](py/prob_933.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
-942|[DI String Match](https://leetcode.com/problems/di-string-match/)|||[:page_facing_up:](py/prob_942.py)|Easy
+942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[:page_facing_up:](cpp/prob_942.cpp)||[:page_facing_up:](py/prob_942.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|||[:page_facing_up:](py/prob_945.py)|Medium
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
