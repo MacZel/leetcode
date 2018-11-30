@@ -15,7 +15,7 @@ Python
 6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|||[:page_facing_up:](py/prob_6.py)|Medium
 7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|||[:page_facing_up:](py/prob_7.py)|Easy
 8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|||[:page_facing_up:](py/prob_8.py)|Medium
-9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[:page_facing_up:](cpp/prob_9.cpp)||[:page_facing_up:](py/prob_9.py)|Easy
+9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[:page_facing_up:](cpp/prob_9.cpp)|[:page_facing_up:](js/prob_9.js)|[:page_facing_up:](py/prob_9.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|||[:page_facing_up:](py/prob_12.py)|Medium
 13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|||[:page_facing_up:](py/prob_13.py)|Easy
