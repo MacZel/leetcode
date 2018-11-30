@@ -69,6 +69,8 @@ Python
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|||[:page_facing_up:](py/prob_929.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
+933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|||[:page_facing_up:](py/prob_933.py)|Easy
+&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 942|[DI String Match](https://leetcode.com/problems/di-string-match/)|||[:page_facing_up:](py/prob_942.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 945|[Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)|||[:page_facing_up:](py/prob_945.py)|Medium
