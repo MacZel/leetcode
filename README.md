@@ -17,7 +17,7 @@ Python
 8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|||[:page_facing_up:](py/prob_8.py)|Medium
 9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[:page_facing_up:](cpp/prob_9.cpp)|[:page_facing_up:](js/prob_9.js)|[:page_facing_up:](py/prob_9.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
-12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|||[:page_facing_up:](py/prob_12.py)|Medium
+12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[:page_facing_up:](cpp/prob_12.cpp)||[:page_facing_up:](py/prob_12.py)|Medium
 13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|||[:page_facing_up:](py/prob_13.py)|Easy
 14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|||[:page_facing_up:](py/prob_14.py)|Easy
 15|[3Sum](https://leetcode.com/problems/3sum/)|||[:page_facing_up:](py/prob_15.py)|Medium 
