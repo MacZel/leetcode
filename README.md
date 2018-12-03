@@ -59,7 +59,7 @@ Python
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[:page_facing_up:](cpp/prob_867.cpp)|[:page_facing_up:](js/prob_867.js)|[:page_facing_up:](py/prob_867.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
-876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[:page_facing_up:](cpp/prob_876.cpp)||[:page_facing_up:](py/prob_876.py)|Easy
+876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[:page_facing_up:](cpp/prob_876.cpp)|[:page_facing_up:](js/prob_876.js)|[:page_facing_up:](py/prob_876.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|||[:page_facing_up:](py/prob_883.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
