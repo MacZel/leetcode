@@ -51,7 +51,7 @@ Python
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|||[:page_facing_up:](py/prob_804.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
-807|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|||[:page_facing_up:](py/prob_807.py)|Medium
+807|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[:page_facing_up:](cpp/prob_807.cpp)||[:page_facing_up:](py/prob_807.py)|Medium
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[:page_facing_up:](cpp/prob_832.cpp)|[:page_facing_up:](js/prob_832.js)|[:page_facing_up:](py/prob_832.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
