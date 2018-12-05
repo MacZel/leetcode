@@ -30,7 +30,7 @@ Python
 27|[Remove Element](https://leetcode.com/problems/remove-element/)|||[:page_facing_up:](py/prob_27.py)|Easy
 28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|||[:page_facing_up:](py/prob_28.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
-35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[:page_facing_up:](cpp/prob_35.cpp)||[:page_facing_up:](py/prob_35.py)|Easy
+35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[:page_facing_up:](cpp/prob_35.cpp)|[:page_facing_up:](js/prob_35.js)|[:page_facing_up:](py/prob_35.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[:page_facing_up:](cpp/prob_48.cpp)|[:page_facing_up:](js/prob_48.js)|[:page_facing_up:](py/prob_48.py)|Medium
 49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|||[:page_facing_up:](py/prob_49.py)|Medium
