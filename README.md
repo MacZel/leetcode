@@ -53,7 +53,7 @@ Python
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 807|[Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|||[:page_facing_up:](py/prob_807.py)|Medium
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
-832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|||[:page_facing_up:](py/prob_832.py)|Easy
+832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[:page_facing_up:](cpp/prob_832.cpp)||[:page_facing_up:](py/prob_832.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|||[:page_facing_up:](py/prob_852.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
