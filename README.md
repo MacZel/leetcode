@@ -55,7 +55,7 @@ Python
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[:page_facing_up:](cpp/prob_832.cpp)|[:page_facing_up:](js/prob_832.js)|[:page_facing_up:](py/prob_832.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
-852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|||[:page_facing_up:](py/prob_852.py)|Easy
+852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[:page_facing_up:](cpp/prob_852.cpp)||[:page_facing_up:](py/prob_852.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
 867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[:page_facing_up:](cpp/prob_867.cpp)|[:page_facing_up:](js/prob_867.js)|[:page_facing_up:](py/prob_867.py)|Easy
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
