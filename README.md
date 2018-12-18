@@ -12,7 +12,7 @@ Python
 3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[:page_facing_up:](cpp/prob_3.cpp)|[:page_facing_up:](js/prob_3.js)|[:page_facing_up:](py/prob_3.py)|Medium
 4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|||[:page_facing_up:](py/prob_4.py)|Hard
 &#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;|&#x22EE;
-6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|||[:page_facing_up:](py/prob_6.py)|Medium
+6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)||[:page_facing_up:](js/prob_6.js)|[:page_facing_up:](py/prob_6.py)|Medium
 7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[:page_facing_up:](cpp/prob_7.cpp)|[:page_facing_up:](js/prob_7.js)|[:page_facing_up:](py/prob_7.py)|Easy
 8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|||[:page_facing_up:](py/prob_8.py)|Medium
 9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[:page_facing_up:](cpp/prob_9.cpp)|[:page_facing_up:](js/prob_9.js)|[:page_facing_up:](py/prob_9.py)|Easy
